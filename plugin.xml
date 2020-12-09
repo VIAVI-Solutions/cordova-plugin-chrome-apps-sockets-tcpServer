@@ -17,7 +17,7 @@
   <issue>https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-sockets-tcpServer/issues</issue>
 
   <dependency id="cordova-plugin-chrome-apps-common@1" />
-  <dependency id="cordova-plugin-chrome-apps-sockets-tcp@1" />
+  <dependency url="git+https://github.com/VIAVI-Solutions/cordova-plugin-chrome-apps-sockets-tcp.git" />
 
   <js-module src="sockets.tcpServer.js" name="sockets.tcpServer">
     <clobbers target="chrome.sockets.tcpServer" />
