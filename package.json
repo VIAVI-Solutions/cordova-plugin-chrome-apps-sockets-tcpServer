@@ -13,6 +13,9 @@
     "type": "git",
     "url": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-sockets-tcpServer.git"
   },
+  "dependencies": {
+    "cordova-plugin-chrome-apps-sockets-tcp": "git+https://github.com/VIAVI-Solutions/cordova-plugin-chrome-apps-sockets-tcp.git"
+  },
   "keywords": [
     "chrome",
     "socket",
